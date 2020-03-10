@@ -1,0 +1,101 @@
+body {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+.division-bienvenida {
+    background-image: url(../img/fondo.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 368px;
+    background-repeat: no-repeat;
+    /*border: solid royalblue 5px;  */
+    border-radius: 50px;
+}
+
+.division-perfil {
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium';
+    font-size: larger;
+    color: black;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+  
+}
+
+.menu-principal {
+    margin-top: 50px;
+    background-color: #8a9ba6;
+    width: 100%;
+    height: 100px;
+    display:flex; 
+    justify-content: space-around;
+    align-content: center;
+    font-size: 30px;
+}
+
+.division-contenedor-libro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.division-libro {
+    background-color: lightseagreen;
+    width: 250px;
+    height: 700px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+.button-libro {
+    color: palevioletred; 
+    border-radius: 5px; 
+    width:150px; 
+    height:50px;
+}
+    
+
+/* Styles to images */
+
+.img-logo-library {
+    margin-left: 30px;
+    margin-top: 30px;
+    width:175px; 
+    height:106px;
+}
+
+.img-perfil {
+    max-width:50%;
+    border-radius:50%
+}
+
+.img-caratula-libro {
+    width: 150px;
+    height: 200px;
+}
+
+/* Styles to footer */
+
+.footer {
+    margin-top: 100px;
+    background-color: rgb(78, 65, 78); 
+    position: absolute; 
+    width: 100%;
+    padding: 1rem;
+    /*bottom: 0;*/
+}
